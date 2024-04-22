@@ -1,0 +1,32 @@
+.heading {
+  text-align: left;
+}
+.text-editor {
+  width: 100%;
+  max-width: auto;
+}
+.ql-editor img {
+  max-width: 50%;
+  max-height: 250px;
+  object-fit: contain;
+}
+
+/* Media query for tablets */
+@media screen and (max-width: 768px) {
+  .text-editor {
+    max-width: 600px;
+  }
+  .heading {
+    text-align: center;
+  }
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 480px) {
+  .text-editor {
+    max-width: 400px;
+  }
+  .heading {
+    text-align: center;
+  }
+}

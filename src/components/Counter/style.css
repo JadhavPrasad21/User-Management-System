@@ -1,0 +1,63 @@
+/* Counter Container */
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Counter Level */
+.counter-level {
+  height: 30vh;
+  width: 80%;
+  transition: background-color 3s ease;
+  border-radius: 40px;
+  margin-top: 2rem;
+}
+
+/* Counter Info */
+.counter-info {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2.8rem;
+}
+
+/* Counter Buttons */
+.counter-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+/* Counter Button */
+.counter-button {
+  margin: 0 15px;
+  padding: 8px 30px;
+  font-size: 0.9rem;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+}
+
+/* Hover Effect */
+.counter-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-1px);
+}
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 600px) {
+  .counter-buttons {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .counter-button {
+    margin: 5px 0;
+  }
+}

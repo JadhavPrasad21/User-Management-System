@@ -1,0 +1,40 @@
+.user-data-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.user-data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-data-title {
+  text-align: left;
+}
+
+.user-data-header,
+.user-data-cell {
+  padding: 8px;
+  text-align: left;
+}
+
+.user-data-header {
+  background-color: #4776e6;
+  color: white;
+  font-weight: bold;
+}
+
+.user-data-row:nth-child(even) {
+  background-color: #ede6f2;
+}
+
+@media screen and (max-width: 600px) {
+  .user-data-header,
+  .user-data-cell {
+    padding: 4px;
+    font-size: 14px;
+  }
+  .user-data-title {
+    text-align: center;
+  }
+}

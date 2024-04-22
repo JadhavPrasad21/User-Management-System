@@ -1,0 +1,42 @@
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #4776e6;
+}
+
+footer div {
+  flex: 1;
+  padding: 20px;
+  color: white;
+}
+
+footer div:nth-child(2) {
+  text-align: right;
+  padding: 15px;
+}
+
+footer a {
+  margin-left: 10px;
+}
+
+footer img {
+  width: 30px;
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer div {
+    text-align: center;
+    padding: 10px;
+  }
+
+  footer div:nth-child(2) {
+    text-align: center;
+    padding: 5px;
+  }
+}
